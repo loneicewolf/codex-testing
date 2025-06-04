@@ -1,3 +1,7 @@
+# NOT MY CODE!
+# ITS AI ASSISTED (GPT,CODEX,AI,OPENAI)
+:)
+
 # Cipher Analysis Examples
 
 This repository now includes simple cipher analysis tools in four languages:
