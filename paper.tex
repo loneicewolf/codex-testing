@@ -23,6 +23,41 @@ Detail your research approach and methods.
 \section{Experiments}
 Provide experiments, results, and analysis.
 
+\section{Code Examples}
+This appendix accompanies the repository and describes how to build and
+execute the included examples written in C, Python, and x86\textendash64
+assembly. Each program prints a greeting using an optional name
+parameter supplied on the command line.
+
+\subsection{C Program}
+The source file \verb|code/hello.c| may be compiled using GCC as
+follows:
+\begin{verbatim}
+gcc -o hello_c code/hello.c
+\end{verbatim}
+Running \verb|./hello_c| prints \texttt{``Hello, world!''}. Supplying a
+name argument, e.g. \verb|./hello_c Alice|, results in the output
+\texttt{``Hello, Alice!''}.
+
+\subsection{Python Program}
+The script \verb|code/hello.py| requires Python~3 and is executed with:
+\begin{verbatim}
+python3 code/hello.py [name]
+\end{verbatim}
+If a name is provided, the program prints a personalized greeting; otherwise,
+it defaults to \texttt{``Hello, world!''}.
+
+\subsection{Assembly Program}
+An x86\textendash64 NASM example is provided in \verb|code/hello.asm|.
+It can be assembled and linked with:
+\begin{verbatim}
+nasm -felf64 code/hello.asm
+gcc hello.o -o hello_asm
+\end{verbatim}
+Executing \verb|./hello_asm Bob| prints the message
+\texttt{``Hello, Bob!''}. If no parameter is supplied, the default output is
+\texttt{``Hello, world!''}.
+
 \section{Conclusion}
 Summarize your findings and future work.
 
