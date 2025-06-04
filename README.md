@@ -1,12 +1,22 @@
 # Cipher Simulators
 
-This repository contains simple implementations of Caesar, Vigenere and toy Enigma ciphers in three languages:
+This repository contains simple implementations of Caesar, Vigenere and toy Enigma ciphers in three languages. These examples are for educational or demonstration purposes only and should not be used for real security:
 
 - **Python**: located in `py/`
 - **C**: located in `c/`
 - **NASM assembly**: located in `asm/`
 
 ## Building and Running
+
+You can build everything at once using the included `Makefile`:
+
+```bash
+make
+```
+
+This produces executables for the C and NASM versions in their respective
+directories. You can also compile and run each language individually as shown
+below.
 
 ### Python
 Run the scripts directly with Python 3:
@@ -48,4 +58,5 @@ Run the executables:
 ./asm/vigenere
 ./asm/enigma
 ```
+
 

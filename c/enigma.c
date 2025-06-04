@@ -2,6 +2,12 @@
 #include <ctype.h>
 #include <string.h>
 
+/*
+ * Toy Enigma cipher demonstration with a single rotor and reflector.
+ * Usage: ./enigma text
+ * Not intended for real cryptographic use.
+ */
+
 static const char *rotor = "EKMFLGDQVZNTOWYHXUSPAIBRCJ";
 static const char *reflector = "YRUHQSLDPXNGOKMIEBFZCWVJAT";
 

@@ -1,3 +1,5 @@
+; Simple Vigenere cipher demonstration
+
 section .data
     input db "HELLO WORLD",0
     key db "KEY",0

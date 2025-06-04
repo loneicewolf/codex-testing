@@ -1,3 +1,5 @@
+"""Toy Enigma cipher demonstration with a single rotor."""
+
 import sys
 
 rotor = 'EKMFLGDQVZNTOWYHXUSPAIBRCJ'

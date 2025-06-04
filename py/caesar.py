@@ -1,3 +1,5 @@
+"""Simple Caesar cipher demonstration."""
+
 import sys
 
 def caesar(text, shift):

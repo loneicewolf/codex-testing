@@ -1,3 +1,5 @@
+; Toy Enigma cipher demonstration
+
 section .data
     input db "HELLO",0
     rotor db "EKMFLGDQVZNTOWYHXUSPAIBRCJ"

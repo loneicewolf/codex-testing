@@ -3,6 +3,12 @@
 #include <ctype.h>
 #include <string.h>
 
+/*
+ * Simple Vigenere cipher demonstration.
+ * Usage: ./vigenere KEY text
+ * Not intended for real cryptographic use.
+ */
+
 int main(int argc, char *argv[]) {
     if (argc < 3) {
         fprintf(stderr, "usage: %s key text\n", argv[0]);

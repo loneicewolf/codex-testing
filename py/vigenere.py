@@ -1,3 +1,5 @@
+"""Simple Vigenere cipher demonstration."""
+
 import sys
 
 def vigenere(text, key):

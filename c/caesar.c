@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+/*
+ * Simple Caesar cipher demonstration.
+ * Usage: ./caesar shift text
+ * Not intended for real cryptographic use.
+ */
+
 int main(int argc, char *argv[]) {
     if (argc < 3) {
         fprintf(stderr, "usage: %s shift text\n", argv[0]);
