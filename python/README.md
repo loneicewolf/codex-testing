@@ -11,3 +11,10 @@ This directory provides analysis tools for classic ciphers:
   `secrets` module.
 
 Run `python analyze.py --help` for options.
+
+## Node-based GUI Example
+
+The file `node_gui.py` demonstrates a minimal node editor built with
+PyQt5. Nodes can be moved around and connected by dragging from an
+output socket to an input socket. The example provides color and
+hairstyle option nodes that feed into a result node.
