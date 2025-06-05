@@ -1,16 +1,12 @@
 <div align="center">
-# Repository Archive
+# Repository Source Archive
 </div>
 
-This markdown compiles all files of the repository with collapsible dropdowns.
-<span style="color:purple"><em>Use the table of contents below to explore.</em></span>
+This README assembles every file from the repository for reference and study.
 
-$$E = mc^2$$
+> **AI-Generated Content Notice**
+> This document was created with help from AI tools. It is provided as-is for academic and research use only. No warranty is expressed or implied, and the authors assume no liability.
 
-> **Disclaimer:** This archive was generated with significant AI assistance.
-> It is intended purely for academic study and educational experimentation.
-> All content is provided "as is" without warranty, and the authors
-> disclaim any responsibility for misuse.
 
 ## Table of Contents
 - [README.md](#READMEmd)
@@ -1172,6 +1168,5 @@ if __name__ == "__main__":
 
 ---
 
-_This consolidated document was produced with AI assistance and is intended for
-research documentation only._
+_This archive is AI-assisted and provided solely for research and educational purposes._
 
