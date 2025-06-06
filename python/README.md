@@ -9,5 +9,6 @@ This directory provides analysis tools for classic ciphers:
   is intentionally insecure. **Do not use in production!**
 - **secure_rng**: example wrapper around Python's cryptographically secure
   `secrets` module.
+- **wheel_gui**: animated cogwheel GUI that executes simple text commands.
 
 Run `python analyze.py --help` for options.
