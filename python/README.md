@@ -11,3 +11,9 @@ This directory provides analysis tools for classic ciphers:
   `secrets` module.
 
 Run `python analyze.py --help` for options.
+
+## AI Examples for Beginners
+
+- **simple_chatbot.py**: rule-based conversation bot illustrating conditional logic.
+- **digit_classifier.py**: uses scikit-learn to classify handwritten digits with logistic regression.
+- **tic_tac_toe_ai.py**: play Tic-Tac-Toe against an AI employing the minimax algorithm.
