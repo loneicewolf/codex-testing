@@ -19,3 +19,5 @@ Run `python analyze.py --help` for options.
 - **simple_chatbot.py**: rule-based conversation bot illustrating conditional logic.
 - **digit_classifier.py**: uses scikit-learn to classify handwritten digits with logistic regression.
 - **tic_tac_toe_ai.py**: play Tic-Tac-Toe against an AI employing the minimax algorithm.
+- **black_hole_gui.py**: simple Tkinter gravity simulator with sliders and
+  color selection for visualizing motion near a black hole.
