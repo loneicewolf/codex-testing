@@ -21,3 +21,5 @@ Run `python analyze.py --help` for options.
 - **tic_tac_toe_ai.py**: play Tic-Tac-Toe against an AI employing the minimax algorithm.
 - **black_hole_gui.py**: simple Tkinter gravity simulator with sliders and
   color selection for visualizing motion near a black hole.
+- **goldbach_comet_gui.py**: visualize Goldbach pair counts ("Goldbach's comet")
+  for a selected range of even numbers.
