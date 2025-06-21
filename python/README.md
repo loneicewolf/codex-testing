@@ -23,3 +23,12 @@ Run `python analyze.py --help` for options.
   color selection for visualizing motion near a black hole.
 - **goldbach_comet_gui.py**: visualize Goldbach pair counts ("Goldbach's comet")
   for a selected range of even numbers.
+
+## Python Basics
+
+The `basics/` folder contains small scripts introducing core language features:
+
+- `loops.py` &mdash; examples of `for` and `while` loops.
+- `lambda_examples.py` &mdash; demonstrations of lambda functions with `map`, `filter`, and sorting.
+- `comprehensions.py` &mdash; shows list, dictionary, and set comprehensions.
+
