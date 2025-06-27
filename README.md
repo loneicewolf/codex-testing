@@ -1,6 +1,6 @@
 # NOT MY CODE!
-# ITS AI ASSISTED (GPT,CODEX,AI,OPENAI)
-:)
+# AI `MADE` (Yep. MADE. I have done NO work in this repo)
+# ALL credit goes to OpenAI/`CODEX`
 
 # Cipher Analysis Examples
 
